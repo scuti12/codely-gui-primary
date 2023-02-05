@@ -8,14 +8,14 @@ export function MenuInner() {
   const intl = useIntl()
   return (
     <>
-      <MenuItem to='/newsFeed' title='NewsFeed' hasBullet={true} />
-      <MenuItem to='/document' title='Document' hasBullet={true} />
-      <MenuItem to='/course' title='Courses' hasBullet={true} />
-      <MenuItem to='/cup' title='Cup' hasBullet={true} />
-      <MenuItem to='/rank' title='Rank' hasBullet={true} />
+      <MenuItem to='/newsFeed' title='' icon='/media/icons/duotune/general/gen025.svg'/>
+      <MenuItem to='/document' title='' icon='/media/icons/duotune/files/fil012.svg'/>
+      <MenuItem to='/course' title='' icon='/media/icons/duotune/general/gen002.svg'/>
+      <MenuItem to='/cup' title='' icon='/media/icons/duotune/general/gen020.svg'/>
+      <MenuItem to='/rank' title='' icon='/media/icons/duotune/graphs/gra004.svg'/>
       {/*<MenuItem title={intl.formatMessage({id: 'MENU.DASHBOARD'})} to='/dashboard' />*/}
       <MenuInnerWithSub
-        title='Crafted'
+        title='Tools'
         to='/crafted'
         menuPlacement='bottom-start'
         menuTrigger='click'

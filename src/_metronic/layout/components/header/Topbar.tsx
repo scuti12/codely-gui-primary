@@ -17,6 +17,7 @@ const Topbar: FC = () => {
         {/* <div className={clsx('d-flex align-items-stretch', toolbarButtonMarginClass)}>
         <Search />
       </div> */}
+
         {/* CHAT */}
         <div className={clsx('d-flex align-items-center', toolbarButtonMarginClass)}>
           {/*begin::Menu wrapper*/}
@@ -33,7 +34,7 @@ const Topbar: FC = () => {
                   className={toolbarButtonIconSizeClass}
               />
 
-              <span className='bullet bullet-dot bg-success h-6px w-6px position-absolute translate-middle top-0 start-50 animation-blink'></span>
+              <span className='bullet bullet-dot bg-danger h-6px w-6px position-absolute translate-middle top-5 start-80 animation-blink'></span>
             </Link>
           </div>
           {/*end::Menu wrapper*/}
@@ -49,7 +50,7 @@ const Topbar: FC = () => {
             id='kt_activities_toggle'
           >
             <KTSVG
-              path='/media/icons/duotune/general/gen032.svg'
+              path='/media/icons/duotune/general/gen007.svg'
               className={toolbarButtonIconSizeClass}
             />
           </div>

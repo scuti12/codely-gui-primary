@@ -69,7 +69,7 @@ export function HeaderWrapper() {
         </div>
 
         {/* begin::Wrapper */}
-        <div className='d-flex align-items-stretch justify-content-between flex-lg-grow-1'>
+        <div className='d-flex align-items-center justify-content-center flex-lg-grow-1'>
           {/* begin::Navbar */}
           {header.left === 'menu' && (
             <div className='d-flex align-items-stretch' id='kt_header_nav'>
@@ -83,9 +83,9 @@ export function HeaderWrapper() {
             </div>
           )}
 
-          <div className='d-flex align-items-stretch flex-shrink-0'>
-            <Topbar />
-          </div>
+        </div>
+        <div className='d-flex align-items-stretch flex-shrink-0'>
+          <Topbar />
         </div>
         {/* end::Wrapper */}
       </div>

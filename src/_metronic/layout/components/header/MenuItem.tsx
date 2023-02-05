@@ -11,6 +11,7 @@ type Props = {
   fontIcon?: string
   hasArrow?: boolean
   hasBullet?: boolean
+  toolTip?: string
 }
 
 const MenuItem: React.FC<Props> = ({
@@ -20,11 +21,12 @@ const MenuItem: React.FC<Props> = ({
   fontIcon,
   hasArrow = false,
   hasBullet = false,
+  toolTip
 }) => {
   const {pathname} = useLocation()
 
   return (
-    <div className='menu-item me-lg-1'>
+    <div className='menu-item me-lg-1' style={{paddingLeft:"5%"}}>
       <Link
         className={clsx('menu-link py-3', {
           active: checkIsActive(pathname, to),
@@ -38,9 +40,10 @@ const MenuItem: React.FC<Props> = ({
         )}
 
         {icon && (
-          <span className='menu-icon'>
-            <KTSVG path={icon} className='svg-icon-2' />
+          <span className='menu-icon' style={{paddingLeft:"30%"}}>
+            <KTSVG path={icon} className='svg-icon-1'/>
           </span>
+
         )}
 
         {fontIcon && (
