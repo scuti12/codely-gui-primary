@@ -8,6 +8,8 @@ import {Document} from "../pages/Document";
 import {Course} from "../pages/Course";
 import {Cup} from "../pages/Cup";
 import {Rank} from "../pages/Rank";
+import {work } from '../pages/Work'
+import { quetions } from '../pages/Questions'
 
 export function PrivateRoutes() {
   const BuilderPageWrapper = lazy(() => import('../pages/layout-builder/BuilderPageWrapper'))
@@ -21,10 +23,12 @@ export function PrivateRoutes() {
     <Suspense fallback={<FallbackView />}>
       <Switch>
         <Route path='/newsFeed' component={NewsFeed} />
+        <Route path='/questions' component={quetions} />
         <Route path='/document' component={Document} />
         <Route path='/course' component={Course} />
         <Route path='/cup' component={Cup} />
         <Route path='/rank' component={Rank} />
+        <Route path='/work' component={work} />
         <Route path='/dashboard' component={DashboardWrapper} />
         <Route path='/builder' component={BuilderPageWrapper} />
         <Route path='/crafted/pages/profile' component={ProfilePage} />

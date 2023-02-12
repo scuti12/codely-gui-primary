@@ -13,10 +13,10 @@ export function Projects() {
             badgeColor='primary'
             status='In Progress'
             statusColor='primary'
-            title='Fitnes App'
-            description='CRM App application to HR efficiency'
+            title='HTML CSS animation'
+            description='HTML CSS animation бүтээх'
             date='November 10, 2021'
-            budget='$284,900.00'
+            budget='100,000 төгрөг'
             progress={50}
             users={users1}
           />
@@ -28,10 +28,10 @@ export function Projects() {
             badgeColor='info'
             status='Pending'
             statusColor='info'
-            title='Leaf CRM'
-            description='CRM App application to HR efficiency'
+            title='Java дунд шат'
+            description='Java дунд шатны суралцагч нарт'
             date='May 10, 2021'
-            budget='$36,400.00'
+            budget='50,000 төгрөг'
             progress={30}
             users={users2}
           />
@@ -43,10 +43,10 @@ export function Projects() {
             badgeColor='success'
             status='Completed'
             statusColor='success'
-            title='Atica Banking'
-            description='CRM App application to HR efficiency'
+            title='Database expert'
+            description='Database expert тодруулах тэмцээн'
             date='Mar 14, 2021'
-            budget='$605,100.00'
+            budget='3 сар Free'
             progress={100}
             users={users3}
           />
@@ -54,93 +54,95 @@ export function Projects() {
 
         <div className='col-md-6 col-xl-4'>
           <Card2
-            icon='/media/svg/brand-logos/sentry-3.svg'
+            icon='/media/svg/brand-logos/plurk.svg'
+            badgeColor='primary'
+            status='In Progress'
+            statusColor='primary'
+            title='HTML CSS animation'
+            description='HTML CSS animation бүтээх'
+            date='November 10, 2021'
+            budget='100,000 төгрөг'
+            progress={50}
+            users={users1}
+          />
+        </div>
+
+        <div className='col-md-6 col-xl-4'>
+          <Card2
+            icon='/media/svg/brand-logos/disqus.svg'
             badgeColor='info'
             status='Pending'
             statusColor='info'
-            title='Finance Dispatch'
-            description='CRM App application to HR efficiency'
-            date='Mar 14, 2021'
-            budget='$605,100.00'
-            progress={60}
-            users={users4}
+            title='Java дунд шат'
+            description='Java дунд шатны суралцагч нарт'
+            date='May 10, 2021'
+            budget='50,000 төгрөг'
+            progress={30}
+            users={users2}
           />
         </div>
 
         <div className='col-md-6 col-xl-4'>
           <Card2
-            icon='/media/svg/brand-logos/xing-icon.svg'
-            badgeColor='primary'
-            status='In Progress'
-            statusColor='primary'
-            title='9 Degree'
-            description='CRM App application to HR efficiency'
-            date='Mar 14, 2021'
-            budget='$605,100.00'
-            progress={40}
-            users={users5}
-          />
-        </div>
-
-        <div className='col-md-6 col-xl-4'>
-          <Card2
-            icon='/media/svg/brand-logos/tvit.svg'
-            badgeColor='primary'
-            status='In Progress'
-            statusColor='primary'
-            title='9 Degree'
-            description='CRM App application to HR efficiency'
-            date='Mar 14, 2021'
-            budget='$605,100.00'
-            progress={70}
-            users={users6}
-          />
-        </div>
-
-        <div className='col-md-6 col-xl-4'>
-          <Card2
-            icon='/media/svg/brand-logos/aven.svg'
-            badgeColor='primary'
-            status='In Progress'
-            statusColor='primary'
-            title='Buldozer CRM'
-            description='CRM App application to HR efficiency'
-            date='Mar 14, 2021'
-            budget='$605,100.00'
-            progress={70}
-            users={users7}
-          />
-        </div>
-
-        <div className='col-md-6 col-xl-4'>
-          <Card2
-            icon='/media/svg/brand-logos/treva.svg'
-            badgeColor='danger'
-            status='Overdue'
-            statusColor='danger'
-            title='Aviasales App'
-            description='CRM App application to HR efficiency'
-            date='Mar 14, 2021'
-            budget='$605,100.00'
-            progress={10}
-            users={users8}
-          />
-        </div>
-
-        <div className='col-md-6 col-xl-4'>
-          <Card2
-            icon='/media/svg/brand-logos/kanba.svg'
+            icon='/media/svg/brand-logos/figma-1.svg'
             badgeColor='success'
             status='Completed'
             statusColor='success'
-            title='Oppo CRM'
-            description='CRM App application to HR efficiency'
+            title='Database expert'
+            description='Database expert тодруулах тэмцээн'
             date='Mar 14, 2021'
-            budget='$605,100.00'
+            budget='3 сар Free'
             progress={100}
-            users={users9}
+            users={users3}
           />
         </div>
+
+        <div className='col-md-6 col-xl-4'>
+          <Card2
+            icon='/media/svg/brand-logos/plurk.svg'
+            badgeColor='primary'
+            status='In Progress'
+            statusColor='primary'
+            title='HTML CSS animation'
+            description='HTML CSS animation бүтээх'
+            date='November 10, 2021'
+            budget='100,000 төгрөг'
+            progress={50}
+            users={users1}
+          />
+        </div>
+
+        <div className='col-md-6 col-xl-4'>
+          <Card2
+            icon='/media/svg/brand-logos/disqus.svg'
+            badgeColor='info'
+            status='Pending'
+            statusColor='info'
+            title='Java дунд шат'
+            description='Java дунд шатны суралцагч нарт'
+            date='May 10, 2021'
+            budget='50,000 төгрөг'
+            progress={30}
+            users={users2}
+          />
+        </div>
+
+        <div className='col-md-6 col-xl-4'>
+          <Card2
+            icon='/media/svg/brand-logos/figma-1.svg'
+            badgeColor='success'
+            status='Completed'
+            statusColor='success'
+            title='Database expert'
+            description='Database expert тодруулах тэмцээн'
+            date='Mar 14, 2021'
+            budget='3 сар Free'
+            progress={100}
+            users={users3}
+          />
+        </div>
+
+        
       </div>
 
       <div className='d-flex flex-stack flex-wrap pt-10'>

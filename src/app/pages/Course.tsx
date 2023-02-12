@@ -7,8 +7,8 @@ export function Course() {
         <div className='row g-5 g-xl-8'>
             <div className='d-flex flex-wrap flex-stack mb-6'>
                 <h3 className='fw-bolder my-2'>
-                    My Projects
-                    <span className='fs-6 text-gray-400 fw-bold ms-1'>Active</span>
+                    Courses
+                    {/* <span className='fs-6 text-gray-400 fw-bold ms-1'>Active</span> */}
                 </h3>
 
                 <div className='d-flex flex-wrap my-2'>
@@ -20,10 +20,10 @@ export function Course() {
                             className='form-select form-select-sm form-select-white w-125px'
                             defaultValue='Active'
                         >
-                            <option value='Active'>Active</option>
-                            <option value='Approved'>In Progress</option>
-                            <option value='Declined'>To Do</option>
-                            <option value='In Progress'>Completed</option>
+                            <option value='Active'>Web </option>
+                            <option value='Approved'>Network</option>
+                            <option value='Declined'>AI</option>
+                            <option value='In Progress'>Cyber security</option>
                         </select>
                     </div>
                     <a
@@ -32,7 +32,7 @@ export function Course() {
                         data-bs-toggle='modal'
                         data-bs-target='#kt_modal_create_project'
                     >
-                        New Project
+                        Хадгалах
                     </a>
                 </div>
             </div>

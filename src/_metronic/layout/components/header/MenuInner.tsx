@@ -8,19 +8,21 @@ export function MenuInner() {
   const intl = useIntl()
   return (
     <>
-      <MenuItem to='/newsFeed' title='' icon='/media/icons/duotune/general/gen025.svg'/>
-      <MenuItem to='/document' title='' icon='/media/icons/duotune/files/fil012.svg'/>
-      <MenuItem to='/course' title='' icon='/media/icons/duotune/general/gen002.svg'/>
-      <MenuItem to='/cup' title='' icon='/media/icons/duotune/general/gen020.svg'/>
-      <MenuItem to='/rank' title='' icon='/media/icons/duotune/graphs/gra004.svg'/>
+      <MenuItem to='/newsFeed' title='Home' icon='/media/icons/duotune/general/gen025.svg'/>
+      <MenuItem to='/questions' title='Quetions' icon='/media/icons/duotune/general/gen046.svg'/>
+      <MenuItem to='/document' title='Documents' icon='/media/icons/duotune/files/fil012.svg'/>
+      <MenuItem to='/course' title='Courses' icon='/media/icons/duotune/general/gen002.svg'/>
+      <MenuItem to='/cup' title='Cup' icon='/media/icons/duotune/general/gen020.svg'/>
+      <MenuItem to='/rank' title='Rank' icon='/media/icons/duotune/graphs/gra004.svg'/>
+      <MenuItem to='/work' title='Work' icon='/media/icons/duotune/finance/fin006.svg'/>
       {/*<MenuItem title={intl.formatMessage({id: 'MENU.DASHBOARD'})} to='/dashboard' />*/}
-      <MenuInnerWithSub
+      {/* <MenuInnerWithSub
         title='Tools'
         to='/crafted'
         menuPlacement='bottom-start'
         menuTrigger='click'
       >
-        {/* PAGES */}
+        
         <MenuInnerWithSub
           title='Pages'
           to='/crafted/pages'
@@ -61,7 +63,7 @@ export function MenuInner() {
           </MenuInnerWithSub>
         </MenuInnerWithSub>
 
-        {/* ACCOUNT */}
+        
         <MenuInnerWithSub
           title='Accounts'
           to='/crafted/accounts'
@@ -74,7 +76,7 @@ export function MenuInner() {
           <MenuItem to='/crafted/account/settings' title='Settings' hasBullet={true} />
         </MenuInnerWithSub>
 
-        {/* ERRORS */}
+        
         <MenuInnerWithSub
           title='Errors'
           to='/error'
@@ -87,7 +89,7 @@ export function MenuInner() {
           <MenuItem to='/error/500' title='Error 500' hasBullet={true} />
         </MenuInnerWithSub>
 
-        {/* Widgets */}
+        
         <MenuInnerWithSub
           title='Widgets'
           to='/crafted/widgets'
@@ -108,7 +110,7 @@ export function MenuInner() {
           <MenuItem to='/apps/chat/group-chat' title='Group Chart' hasBullet={true} />
           <MenuItem to='/apps/chat/drawer-chat' title='Drawer Chart' hasBullet={true} />
         </MenuInnerWithSub>
-      </MenuInnerWithSub>
+      </MenuInnerWithSub> */}
 
       {/*<MenuInnerWithSub*/}
       {/*  isMega={true}*/}

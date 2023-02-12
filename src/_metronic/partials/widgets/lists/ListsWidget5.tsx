@@ -14,7 +14,7 @@ const ListsWidget5: React.FC<Props> = ({className}) => {
       <div className='card-header align-items-center border-0 mt-4'>
         <h3 className='card-title align-items-start flex-column'>
           <span className='fw-bolder mb-2 text-dark'>Activities</span>
-          <span className='text-muted fw-bold fs-7'>890,344 Sales</span>
+          <span className='text-muted fw-bold fs-7'>{new Date().getFullYear()}</span>
         </h3>
         <div className='card-toolbar'>
           {/* begin::Menu */}
@@ -48,7 +48,7 @@ const ListsWidget5: React.FC<Props> = ({className}) => {
             {/* end::Badge */}
             {/* begin::Text */}
             <div className='fw-mormal timeline-content text-muted ps-3'>
-              Outlines keep you honest. And keep structure
+              HTML анхан шат хичээл №13 дуусгасан
             </div>
             {/* end::Text */}
           </div>
@@ -65,7 +65,7 @@ const ListsWidget5: React.FC<Props> = ({className}) => {
             {/* end::Badge */}
             {/* begin::Content */}
             <div className='timeline-content d-flex'>
-              <span className='fw-bolder text-gray-800 ps-3'>AEOL meeting</span>
+              <span className='fw-bolder text-gray-800 ps-3'>Уянгын асуултанд хариулсан</span>
             </div>
             {/* end::Content */}
           </div>
@@ -82,11 +82,11 @@ const ListsWidget5: React.FC<Props> = ({className}) => {
             {/* end::Badge */}
             {/* begin::Desc */}
             <div className='timeline-content fw-bolder text-gray-800 ps-3'>
-              Make deposit
+              Cyber Security Групп дээр пост оруулсан 
               <a href='#' className='text-primary'>
-                USD 700
+                <br/>
+                190 хүн үзсэн
               </a>
-              . to ESL
             </div>
             {/* end::Desc */}
           </div>
@@ -103,7 +103,7 @@ const ListsWidget5: React.FC<Props> = ({className}) => {
             {/* end::Badge */}
             {/* begin::Text */}
             <div className='timeline-content fw-mormal text-muted ps-3'>
-              Indulging in poorly driving and keep structure keep great
+              HTML анхан шат хичээл №13 эхлүүлсэн
             </div>
             {/* end::Text */}
           </div>
@@ -120,9 +120,8 @@ const ListsWidget5: React.FC<Props> = ({className}) => {
             {/* end::Badge */}
             {/* begin::Desc */}
             <div className='timeline-content fw-bold text-gray-800 ps-3'>
-              New order placed
+              Web сонирхогчдын Event оруулсан
               <a href='#' className='text-primary'>
-                #XF-2356
               </a>
               .
             </div>
@@ -141,7 +140,7 @@ const ListsWidget5: React.FC<Props> = ({className}) => {
             {/* end::Badge */}
             {/* begin::Text */}
             <div className='timeline-content fw-mormal text-muted ps-3'>
-              Indulging in poorly driving and keep structure keep great
+              HTML хичээл №12 шалгалт өгсөн
             </div>
             {/* end::Text */}
           </div>
@@ -158,9 +157,8 @@ const ListsWidget5: React.FC<Props> = ({className}) => {
             {/* end::Badge */}
             {/* begin::Desc */}
             <div className='timeline-content fw-bold text-gray-800 ps-3'>
-              New order placed
+              Хичээлийн файл татж авсан
               <a href='#' className='text-primary'>
-                #XF-2356
               </a>
               .
             </div>
@@ -179,7 +177,7 @@ const ListsWidget5: React.FC<Props> = ({className}) => {
             {/* end::Badge */}
             {/* begin::Text */}
             <div className='timeline-content fw-mormal text-muted ps-3'>
-              Finance KPI Mobile app launch preparion meeting
+              Системд нэвтэрсэн
             </div>
             {/* end::Text */}
           </div>

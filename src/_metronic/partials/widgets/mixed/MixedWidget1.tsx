@@ -17,7 +17,7 @@ const MixedWidget1: React.FC<Props> = ({className, color}) => {
         <div className={`px-9 pt-7 card-rounded h-275px w-100 bg-${color}`}>
           {/* begin::Heading */}
           <div className='d-flex flex-stack'>
-            <h3 className='m-0 text-white fw-bolder fs-3'>Sales Summary</h3>
+            <h3 className='m-0 text-white fw-bolder fs-3'>HTML beginners</h3>
             <div className='ms-1'>
               {/* begin::Menu */}
               <button
@@ -36,8 +36,8 @@ const MixedWidget1: React.FC<Props> = ({className, color}) => {
           {/* end::Heading */}
           {/* begin::Balance */}
           <div className='d-flex text-center flex-column text-white pt-8'>
-            <span className='fw-bold fs-7'>You Balance</span>
-            <span className='fw-bolder fs-2x pt-1'>$37,562.00</span>
+            <span className='fw-bold fs-7'>Үзсэн</span>
+            <span className='fw-bolder fs-2x pt-1'>1200</span>
           </div>
           {/* end::Balance */}
         </div>
@@ -61,14 +61,14 @@ const MixedWidget1: React.FC<Props> = ({className, color}) => {
               {/* begin::Title */}
               <div className='mb-1 pe-3 flex-grow-1'>
                 <a href='#' className='fs-5 text-gray-800 text-hover-primary fw-bolder'>
-                  Sales
+                  Суралцагч
                 </a>
-                <div className='text-gray-400 fw-bold fs-7'>100 Regions</div>
+                <div className='text-gray-400 fw-bold fs-7'>431 суралцагч</div>
               </div>
               {/* end::Title */}
               {/* begin::Label */}
               <div className='d-flex align-items-center'>
-                <div className='fw-bolder fs-5 text-gray-800 pe-1'>$2,5b</div>
+                <div className='fw-bolder fs-5 text-gray-800 pe-1'>12</div>
                 <KTSVG
                   path='/media/icons/duotune/arrows/arr066.svg'
                   className='svg-icon-5 svg-icon-success ms-1'
@@ -93,14 +93,14 @@ const MixedWidget1: React.FC<Props> = ({className, color}) => {
               {/* begin::Title */}
               <div className='mb-1 pe-3 flex-grow-1'>
                 <a href='#' className='fs-5 text-gray-800 text-hover-primary fw-bolder'>
-                  Revenue
+                  Хичээлийн хэлбэр
                 </a>
-                <div className='text-gray-400 fw-bold fs-7'>Quarter 2/3</div>
+                <div className='text-gray-400 fw-bold fs-7'>Онлайн</div>
               </div>
               {/* end::Title */}
               {/* begin::Label */}
               <div className='d-flex align-items-center'>
-                <div className='fw-bolder fs-5 text-gray-800 pe-1'>$1,7b</div>
+                {/* <div className='fw-bolder fs-5 text-gray-800 pe-1'>$1,7b</div> */}
                 <KTSVG
                   path='/media/icons/duotune/general/gen024.svg'
                   className='svg-icon-5 svg-icon-danger ms-1'
@@ -125,14 +125,14 @@ const MixedWidget1: React.FC<Props> = ({className, color}) => {
               {/* begin::Title */}
               <div className='mb-1 pe-3 flex-grow-1'>
                 <a href='#' className='fs-5 text-gray-800 text-hover-primary fw-bolder'>
-                  Growth
+                  Багш
                 </a>
-                <div className='text-gray-400 fw-bold fs-7'>80% Rate</div>
+                <div className='text-gray-400 fw-bold fs-7'>Ц.Дэрийлаа</div>
               </div>
               {/* end::Title */}
               {/* begin::Label */}
               <div className='d-flex align-items-center'>
-                <div className='fw-bolder fs-5 text-gray-800 pe-1'>$8,8m</div>
+                {/* <div className='fw-bolder fs-5 text-gray-800 pe-1'>$8,8m</div> */}
                 <KTSVG
                   path='/media/icons/duotune/arrows/arr066.svg'
                   className='svg-icon-5 svg-icon-success ms-1'
@@ -157,14 +157,14 @@ const MixedWidget1: React.FC<Props> = ({className, color}) => {
               {/* begin::Title */}
               <div className='mb-1 pe-3 flex-grow-1'>
                 <a href='#' className='fs-5 text-gray-800 text-hover-primary fw-bolder'>
-                  Dispute
+                  Агуулга
                 </a>
-                <div className='text-gray-400 fw-bold fs-7'>3090 Refunds</div>
+                <div className='text-gray-400 fw-bold fs-7'>120 хэсэг</div>
               </div>
               {/* end::Title */}
               {/* begin::Label */}
               <div className='d-flex align-items-center'>
-                <div className='fw-bolder fs-5 text-gray-800 pe-1'>$270m</div>
+                {/* <div className='fw-bolder fs-5 text-gray-800 pe-1'>$270m</div> */}
                 <KTSVG
                   path='/media/icons/duotune/arrows/arr065.svg'
                   className='svg-icon-5 svg-icon-danger ms-1'

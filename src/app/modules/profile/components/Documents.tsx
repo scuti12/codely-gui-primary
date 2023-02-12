@@ -35,21 +35,21 @@ export function Documents() {
         <div className='col-12 col-sm-12 col-xl-2'>
           <Card4
             icon='/media/svg/files/folder-document.svg'
-            title='Finance'
+            title='HTML'
             description='7 files'
           />
         </div>
         <div className='col-12 col-sm-12 col-xl-2'>
           <Card4
             icon='/media/svg/files/folder-document.svg'
-            title='Customers'
+            title='CSS'
             description='3 files'
           />
         </div>
         <div className='col-12 col-sm-12 col-xl-2'>
           <Card4
             icon='/media/svg/files/folder-document.svg'
-            title='CRM Project'
+            title='JAVA'
             description='25 files'
           />
         </div>

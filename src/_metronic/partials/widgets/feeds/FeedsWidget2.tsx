@@ -18,17 +18,17 @@ const FeedsWidget2: React.FC<Props> = ({className}) => {
           <div className='d-flex align-items-center flex-grow-1'>
             {/* begin::Avatar */}
             <div className='symbol symbol-45px me-5'>
-              <img src={toAbsoluteUrl('/media/avatars/150-6.jpg')} alt='' />
+              <img src={toAbsoluteUrl('/media/avatars/deriilaa.jpg')} alt='' />
             </div>
             {/* end::Avatar */}
 
             {/* begin::Info */}
             <div className='d-flex flex-column'>
               <a href='#' className='text-gray-800 text-hover-primary fs-6 fw-bolder'>
-                Nick Logan
+                Ц.Дэрийлаа
               </a>
 
-              <span className='text-gray-400 fw-bold'>PHP, SQLite, Artisan CLI</span>
+              <span className='text-gray-400 fw-bold'>PHP, SQLite, Java, Oracle</span>
             </div>
             {/* end::Info */}
           </div>
@@ -55,8 +55,7 @@ const FeedsWidget2: React.FC<Props> = ({className}) => {
         <div className='mb-5'>
           {/* begin::Text */}
           <p className='text-gray-800 fw-normal mb-5'>
-            Outlines keep you honest. They stop you from indulging in poorly thought-out metaphors
-            about driving and keep you focused on the overall structure of your post
+            Manaihan dund Cyber security sonirhdog humuus bvl chataar holbogdooroi group neegeed haayaa event ntr zohion baiguulj baiy. Hervee odoohndoo evented irehgui ch groupd oroh sonirholtoi bvl like daraarai
           </p>
           {/* end::Text */}
 

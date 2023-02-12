@@ -12,7 +12,7 @@ const ListsWidget2: React.FC<Props> = ({className}) => {
     <div className={`card ${className}`}>
       {/* begin::Header */}
       <div className='card-header border-0'>
-        <h3 className='card-title fw-bolder text-dark'>Authors</h3>
+        <h3 className='card-title fw-bolder text-dark'>Top 5 Teams</h3>
         <div className='card-toolbar'>
           {/* begin::Menu */}
           <button
@@ -35,16 +35,17 @@ const ListsWidget2: React.FC<Props> = ({className}) => {
         <div className='d-flex align-items-center mb-7'>
           {/* begin::Avatar */}
           <div className='symbol symbol-50px me-5'>
-            <img src={toAbsoluteUrl('/media/avatars/150-1.jpg')} className='' alt='' />
+            <img src={toAbsoluteUrl('/media/avatars/html.png')} className='' alt='' />
           </div>
           {/* end::Avatar */}
           {/* begin::Text */}
           <div className='flex-grow-1'>
             <a href='#' className='text-dark fw-bolder text-hover-primary fs-6'>
-              Emma Smith
+              HTML expert үүд
             </a>
-            <span className='text-muted d-block fw-bold'>Project Manager</span>
+            <span className='text-muted d-block fw-bold'>Private</span>
           </div>
+          <span className="badge badge-success">+1289xp</span>
           {/* end::Text */}
         </div>
         {/* end::Item */}
@@ -52,16 +53,17 @@ const ListsWidget2: React.FC<Props> = ({className}) => {
         <div className='d-flex align-items-center mb-7'>
           {/* begin::Avatar */}
           <div className='symbol symbol-50px me-5'>
-            <img src={toAbsoluteUrl('/media/avatars/150-4.jpg')} className='' alt='' />
+            <img src={toAbsoluteUrl('/media/avatars/web.jpeg')} className='' alt='' />
           </div>
           {/* end::Avatar */}
           {/* begin::Text */}
           <div className='flex-grow-1'>
             <a href='#' className='text-dark fw-bolder text-hover-primary fs-6'>
-              Sean Bean
+              Web хөгжүүлэгчид
             </a>
-            <span className='text-muted d-block fw-bold'>PHP, SQLite, Artisan CLI</span>
+            <span className='text-muted d-block fw-bold'>public</span>
           </div>
+          <span className="badge badge-success">+1129xp</span>
           {/* end::Text */}
         </div>
         {/* end::Item */}
@@ -69,16 +71,17 @@ const ListsWidget2: React.FC<Props> = ({className}) => {
         <div className='d-flex align-items-center mb-7'>
           {/* begin::Avatar */}
           <div className='symbol symbol-50px me-5'>
-            <img src={toAbsoluteUrl('/media/avatars/150-12.jpg')} className='' alt='' />
+            <img src={toAbsoluteUrl('/media/avatars/cyber.jpeg')} className='' alt='' />
           </div>
           {/* end::Avatar */}
           {/* begin::Text */}
           <div className='flex-grow-1'>
             <a href='#' className='text-dark fw-bolder text-hover-primary fs-6'>
-              Brian Cox
+              Cyber Security
             </a>
-            <span className='text-muted d-block fw-bold'>PHP, SQLite, Artisan CLI</span>
+            <span className='text-muted d-block fw-bold'>private</span>
           </div>
+          <span className="badge badge-warning">+912xp</span>
           {/* end::Text */}
         </div>
         {/* end::Item */}
@@ -86,16 +89,17 @@ const ListsWidget2: React.FC<Props> = ({className}) => {
         <div className='d-flex align-items-center mb-7'>
           {/* begin::Avatar */}
           <div className='symbol symbol-50px me-5'>
-            <img src={toAbsoluteUrl('/media/avatars/150-8.jpg')} className='' alt='' />
+            <img src={toAbsoluteUrl('/media/avatars/network.jpeg')} className='' alt='' />
           </div>
           {/* end::Avatar */}
           {/* begin::Text */}
           <div className='flex-grow-1'>
             <a href='#' className='text-dark fw-bolder text-hover-primary fs-6'>
-              Francis Mitcham
+              Network
             </a>
-            <span className='text-muted d-block fw-bold'>PHP, SQLite, Artisan CLI</span>
+            <span className='text-muted d-block fw-bold'>public</span>
           </div>
+          <span className="badge badge-warning">+908xp</span>
           {/* end::Text */}
         </div>
         {/* end::Item */}
@@ -103,16 +107,17 @@ const ListsWidget2: React.FC<Props> = ({className}) => {
         <div className='d-flex align-items-center'>
           {/* begin::Avatar */}
           <div className='symbol symbol-50px me-5'>
-            <img src={toAbsoluteUrl('/media/avatars/150-6.jpg')} className='' alt='' />
+            <img src={toAbsoluteUrl('/media/avatars/programmer.jpeg')} className='' alt='' />
           </div>
           {/* end::Avatar */}
           {/* begin::Text */}
           <div className='flex-grow-1'>
             <a href='#' className='text-dark fw-bolder text-hover-primary fs-6'>
-              Dan Wilson
+              Programmer in UB
             </a>
-            <span className='text-muted d-block fw-bold'>PHP, SQLite, Artisan CLI</span>
+            <span className='text-muted d-block fw-bold'>private</span>
           </div>
+          <span className="badge badge-warning">+487xp</span>
           {/* end::Text */}
         </div>
         {/* end::Item */}

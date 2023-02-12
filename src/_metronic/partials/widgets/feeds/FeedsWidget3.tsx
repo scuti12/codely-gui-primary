@@ -25,7 +25,7 @@ const FeedsWidget3: React.FC<Props> = ({className}) => {
             {/* begin::Info */}
             <div className='d-flex flex-column'>
               <a href='#' className='text-gray-800 text-hover-primary fs-6 fw-bolder'>
-                Carles Nilson
+                Дэлгэр
               </a>
               <span className='text-gray-400 fw-bold'>Yestarday at 5:06 PM</span>
             </div>
@@ -54,8 +54,7 @@ const FeedsWidget3: React.FC<Props> = ({className}) => {
         <div className='mb-7'>
           {/* begin::Text */}
           <div className='text-gray-800 mb-5'>
-            Outlines keep you honest. They stop you from indulging in poorly thought-out metaphors
-            about driving and keep you focused on the overall structure of your post
+            Nadad neg jijighen asuudal tulgaraad bgaa yum l daa gereer huviin bagsh hiih hun bvl chataar holbogdooroi. Medeej tsalintai
           </div>
           {/* end::Text */}
 
@@ -96,7 +95,7 @@ const FeedsWidget3: React.FC<Props> = ({className}) => {
               {/* begin::Info */}
               <div className='d-flex align-items-center flex-wrap mb-1'>
                 <a href='#' className='text-gray-800 text-hover-primary fw-bolder me-2'>
-                  Alice Danchik
+                  Уянга
                 </a>
 
                 <span className='text-gray-400 fw-bold fs-7'>1 day</span>
@@ -109,8 +108,7 @@ const FeedsWidget3: React.FC<Props> = ({className}) => {
 
               {/* begin::Post */}
               <span className='text-gray-800 fs-7 fw-normal pt-1'>
-                Long before you sit dow to put digital pen to paper you need to make sure you have
-                to sit down and write.
+                Tsagiin hedeer zaalgah bolomjtoi bgan. Ajliin hajuugaar blohu
               </span>
               {/* end::Post */}
             </div>
@@ -131,7 +129,7 @@ const FeedsWidget3: React.FC<Props> = ({className}) => {
               {/* begin::Info */}
               <div className='d-flex align-items-center flex-wrap mb-1'>
                 <a href='#' className='text-gray-800 text-hover-primary fw-bolder me-2'>
-                  Harris Bold
+                  Болд
                 </a>
 
                 <span className='text-gray-400 fw-bold fs-7'>2 days</span>
@@ -144,7 +142,7 @@ const FeedsWidget3: React.FC<Props> = ({className}) => {
 
               {/* begin::Post */}
               <span className='text-gray-800 fs-7 fw-normal pt-1'>
-                Outlines keep you honest. They stop you from indulging in poorly
+                Zaalgah hunee bas sn sudlahgui bl bolohguim bnle shu, Hulhiduulsan
               </span>
               {/* end::Post */}
             </div>

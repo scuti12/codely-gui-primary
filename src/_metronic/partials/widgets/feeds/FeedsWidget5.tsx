@@ -25,7 +25,7 @@ const FeedsWidget5: React.FC<Props> = ({className}) => {
             {/* begin::Info */}
             <div className='d-flex flex-column'>
               <a href='#' className='text-gray-800 text-hover-primary fs-6 fw-bolder'>
-                Sam Logan
+                Сэргэлэн
               </a>
 
               <span className='text-gray-400 fw-bold'>Mango, Java, Python</span>
@@ -64,8 +64,7 @@ const FeedsWidget5: React.FC<Props> = ({className}) => {
 
           {/* begin::Text */}
           <div className='text-gray-800 mb-5'>
-            Outlines keep you honest. They stop you from indulging in poorly thought-out metaphors
-            about driving and keep you focused on the overall structure of your post
+            Ene asuultuudaa zaaval Asuult tsesen deer asuuh yumuu. Shuud post chaagaad bvl humuus hariuldaggui gehiin. Bas asuultand hariulval ta nart heden XP nemegdjiin. Aan neeree ene zurag zgr testelj uzsiin
           </div>
           {/* end::Text */}
 

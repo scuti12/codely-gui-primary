@@ -18,14 +18,14 @@ const FeedsWidget4: React.FC<Props> = ({className}) => {
           <div className='d-flex align-items-center flex-grow-1'>
             {/* begin::Avatar */}
             <div className='symbol symbol-45px me-5'>
-              <img src={toAbsoluteUrl('/media/avatars/150-13.jpg')} alt='' />
+              <img src={toAbsoluteUrl('/media/avatars/uhnaa.jpg')} alt='' />
             </div>
             {/* end::Avatar */}
 
             {/* begin::Info */}
             <div className='d-flex flex-column'>
               <a href='#' className='text-gray-800 text-hover-primary fs-6 fw-bolder'>
-                Carles Nilson
+                Хүрэлсүх
               </a>
               <span className='text-gray-400 fw-bold'>Last week at 10:00 PM</span>
             </div>
@@ -54,8 +54,7 @@ const FeedsWidget4: React.FC<Props> = ({className}) => {
         <div className='mb-7'>
           {/* begin::Text */}
           <div className='text-gray-800 mb-5'>
-            Outlines keep you honest. They stop you from indulging in poorly thought-out metaphors
-            about driving and keep you focused on the overall structure of your post
+            Sain baitsgaana uu, Ah n ene ulsiig hugjuulj unendee barahguinee Ta buhen min l sain surch gadaadaas ajil ntr olood dollar oruulj ireed ulsaa hugjuuleerei. Amjilt zaluusaa
           </div>
           {/* end::Text */}
 

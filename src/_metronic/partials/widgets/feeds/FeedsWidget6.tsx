@@ -25,7 +25,7 @@ const FeedsWidget6: React.FC<Props> = ({className}) => {
             {/* begin::Info */}
             <div className='d-flex flex-column'>
               <a href='#' className='text-gray-800 text-hover-primary fs-6 fw-bolder'>
-                Mat Dillon
+                Сүх
               </a>
               <span className='text-gray-400 fw-bold'>Last month</span>
             </div>
@@ -54,7 +54,7 @@ const FeedsWidget6: React.FC<Props> = ({className}) => {
         <div className='mb-6'>
           {/* begin::Text */}
           <div className='text-gray-800 fs-6 fw-normal mb-5'>
-            Outlines keep you honest. They stop you from indulging in poorly thought-out metaphors
+            Font geheer l haanaas yaj solihoo medehgui bga humuusd zoriulsan bichleg shuu. Taalagdval like
           </div>
           {/* end::Text */}
 
